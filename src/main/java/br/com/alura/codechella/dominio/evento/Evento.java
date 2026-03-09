@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.alura.codechella.Categoria;
 import br.com.alura.codechella.dominio.ingresso.TipoIngresso;
 
 public class Evento {
