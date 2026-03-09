@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/eventos")
+@SuppressWarnings("rawtypes")
 public class EventoController {
 
     @Autowired

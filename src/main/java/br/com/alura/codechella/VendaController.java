@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("vendas")
+@SuppressWarnings("rawtypes")
 public class VendaController {
 
     @Autowired

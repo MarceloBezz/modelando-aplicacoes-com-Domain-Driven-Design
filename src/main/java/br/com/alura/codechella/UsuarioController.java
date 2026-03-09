@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/usuarios")
+@SuppressWarnings("rawtypes")
 public class UsuarioController {
 
     @Autowired

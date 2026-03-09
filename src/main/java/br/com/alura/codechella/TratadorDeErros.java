@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
+@SuppressWarnings("rawtypes")
 public class TratadorDeErros {
     @ExceptionHandler(EntityNotFoundException.class)
     public ResponseEntity tratarErro404() {
